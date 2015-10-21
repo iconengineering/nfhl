@@ -74,7 +74,7 @@
 
     L.mapbox.accessToken = 'pk.eyJ1IjoiaWNvbmVuZyIsImEiOiJQVEItMndNIn0.OGqDLfQCZhMzdgYViGKHGw';
 	
-	var map = L.map('map').addControl(L.mapbox.geocoderControl('mapbox.places')).setView([38, -105], 6);
+	var map = L.mapbox.map('map').addControl(L.mapbox.geocoderControl('mapbox.places')).setView([38, -105], 6);
 	
 	var monochrome = L.tileLayer('https://a.tiles.mapbox.com/v3/iconeng.0811ba6b/{z}/{x}/{y}.png', {
     maxZoom: 22
